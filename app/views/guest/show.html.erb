@@ -1,0 +1,12 @@
+<h1>Listing guests</h1>
+
+<% @guests.each do |guest| %>
+  <ul>
+    <li><%= guest.name %></li>
+    <li><%= guest.email %></li>
+    <li><%= guest.address %></li>
+    <li><%= guest.city %></li>
+    <li><%= guest.state %></li>
+    <li><%= guest.zip_code %></li>
+  </ul
+<% end %>
