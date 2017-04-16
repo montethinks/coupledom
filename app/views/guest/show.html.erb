@@ -1,5 +1,8 @@
 <h1>Listing guests</h1>
 
+<h2><%= @guest.name %></h2>
+
+<br />
 <% @guests.each do |guest| %>
   <ul>
     <li><%= guest.name %></li>
